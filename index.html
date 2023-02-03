@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>chicos estoi comendo pasta</title>
+    <link rel="icon" href="./macarao.jpg">
+    <style>
+        body{
+            background-color:#d29469;
+        }
+       .texto{
+           color:#654733;
+           font-weight:bold;
+           text-align:center;
+           font-size:200%;
+                  }
+       @keyframes kapakapa{
+           0%{width:500px;}
+           50%{width:50px;}
+           75%{width:500px;}
+       100%{transform:rotate(360deg)}
+       }
+       .anim{
+         animation-name:kapakapa;
+         animation-duration:3s;   animation-iteration-count:infinite;      }
+    </style>
+</head>
+<body>
+    <img src="./macarao.jpg" alt="" width="500px" height="400px" class="anim">
+    <p class="texto">chicos estoy comiendo pasta</p>
+    <video controls>
+        <source src="video.mp4" type="video/mp4"></source>
+    </video>    
+</body>
+</html>
